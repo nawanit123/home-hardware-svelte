@@ -1,7 +1,7 @@
 <script>
   import { onMount } from 'svelte';
 
-  let contentfulData;
+  let contentfulData = '';
   onMount(async () => {
     const client = contentful.createClient({
       space: '9jo7ly0kaj2i',
