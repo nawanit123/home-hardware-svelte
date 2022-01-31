@@ -1,5 +1,5 @@
 <script>
-  import NavigationBarListItems from './NavigationBarItems/NavigationBarListItems.svelte';
+  import NavigationBarListItems from './NavigationBarListItems.svelte';
   let src = 'resources/hh-logo.svg';
 </script>
 
