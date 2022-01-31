@@ -1,11 +1,11 @@
 <script>
-  import NavigationBar from './components/NavigationBar.svelte';
+  import Header from './components/Header/Header.svelte';
   import ContentfulData from './components/ContentfulData.svelte';
   import JSONPlaceholderData from './components/JSONPlaceholderData.svelte';
 </script>
 
 <main>
-  <NavigationBar />
+  <Header />
   <ContentfulData />
   <JSONPlaceholderData />
 </main>
